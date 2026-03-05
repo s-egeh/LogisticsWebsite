@@ -3,8 +3,9 @@
 ## What’s included
 
 - **`style.css`** – Full CSS for the Services section (variables, bento grid, cards, deep dives, hover states).
-- **`services.html`** – Dedicated Services page with bento hero, floating TOC, and deep dives (Road, Sea, Air, Warehousing, Customs).
-- **`index.html`** – Homepage includes a services teaser section (`#services`) with 3 cards linking to `services.html#road`, `#sea`, `#air`.
+- **`services.html`** – Dedicated Services page with bento hero, floating TOC, and deep dives (Road, Sea, Air, Warehousing, Customs). Use `#services` to land at the top, or `#road`, `#sea`, `#air`, `#warehousing`, `#customs` for sections.
+- **`sections/services.html`** – Standalone teaser section markup (Our Capabilities + 3 cards) to copy into other pages if needed.
+- **`index.html`** – Homepage includes the same teaser section (`#services`) with 3 cards linking to `services.html#road`, `#sea`, `#air`.
 
 ## Structure
 
